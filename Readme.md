@@ -1,3 +1,3 @@
 Portfolio
 
-Creación de un Portofolio responsivo usando HTML, CSS y Bootstraping
+Creación de un Portofolio responsivo usando HTML, CSS y Bootstrap
