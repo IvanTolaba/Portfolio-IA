@@ -30,7 +30,10 @@
     margin-left: 0%;  
     margin-top: 0.8rem;
     margin-bottom: 0%;
-
+}
+.header a{
+    font-size: 16px;
+    font-family: "Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
 }
 .main {  
     padding: 0%;
@@ -97,7 +100,7 @@
     padding: 0%;
 }
 
-.img1{
+#img1{
     height: 15rem;
     width: 39rem;
     margin: 0.3rem;
