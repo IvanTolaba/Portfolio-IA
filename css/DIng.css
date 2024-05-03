@@ -144,13 +144,8 @@
 }
 
 .footer {  
-    background: linear-gradient(90deg,#1c3643,#273b47 25%,#1e5372);       
-}
-
-#container2 {    
-    height: 0.2rem;
-    margin: 0%;
-}
+    background: linear-gradient(90deg,#1c3643,#273b47 25%,#1e5372);     
+}   
 
 
 
@@ -159,22 +154,13 @@
     font-size: 1rem;
 }
 
-.a{
-    height: 6rem;
-    width: 6rem;
-}
-
 .navbar a{
     text-align:right;
 }
 
-.github {
-    width: 45px; 
-    height: 45px;  
-    margin-top: 0.1rem;  
-}
 
-.github2 {
+
+.github {
     width: 42px; 
     height: 42px; 
     margin-left: 0.5rem;  
@@ -197,16 +183,13 @@ p{
 }
 
 #l1{
-    border-radius: 85%;
+    border-radius: 72%;
 }
 .nav-item a:hover{    
     opacity: 0.7;       
 }
 
-.cuerpo{
-    margin-right: 0%;
-    padding: 0%;
-}
+
 
 html, body {
     max-width: 100%;

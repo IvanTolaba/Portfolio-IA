@@ -2,10 +2,8 @@
 #speakers h3,h7,h4,h5,img{
        
   margin-top: 0%;
-  margin-bottom: 0%;
-  
+  margin-bottom: 0%;  
 }
-
 
 #header{  
     margin-top: 0rem;
@@ -100,45 +98,51 @@
   padding: 0%;
 }
 
-#footer {  
-  background: linear-gradient(90deg,#1c3643,#273b47 25%,#1e5372);
-  
-}
 
 #container2 {    
   height: 0.2rem;
   margin: 0%;
 }
 
-
-
-#footer a {
-  color: white;
-}
-
 .a{
   height: 6rem;
   width: 6rem;
 }
-.navbar a{
-  text-align:right;
-}
 
-.github {
-  width: 45px; 
-  height: 45px;  
-  margin-top: 0.1rem;  
-}
+
 .github2 {
   width: 42px; 
   height: 42px; 
   margin-left: 0.5rem;  
 }
+
+.nav-item a:hover{    
+  opacity: 0.7;       
+}
+
+.footer {  
+  background: linear-gradient(90deg,#1c3643,#273b47 25%,#1e5372);     
+}   
+
+.footer a {
+  color: white;
+  font-size: 1rem;
+}
+
+.navbar a{
+  text-align:right;
+}
+
+.github {
+  width: 42px; 
+  height: 42px; 
+  margin-left: 0.5rem;  
+}
+
 .Linkedin {
   width: 43px; 
   height: 43px;
   margin:0%
-  /*filter: grayscale(95%);*/
 }
 
 .mail {
@@ -151,9 +155,10 @@ p{
   color: aliceblue;
 }
 
-.nav-item a:hover{    
-  opacity: 0.7;       
+#l1{
+  border-radius: 72%;
 }
+
 
 html, body {
   max-width: 100%;
