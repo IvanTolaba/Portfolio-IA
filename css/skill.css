@@ -4,93 +4,12 @@
       margin-bottom: 0rem;
       padding: 0%;
       background-color: #04263a;    
-    }
+}
   #header a{    
       color: aliceblue;    
-  }
+  } 
   
-  .main {  
-      padding: 0%;
-      margin-top: 0%;
-      margin-bottom: 0%;   
-      background-color: #04263a;     
-      color: aliceblue; 
-  }
-
-  
-  
-
-  .nav-item a:hover{    
-    opacity: 0.7;       
-  }
-  
-  .footer {  
-    background: linear-gradient(90deg,#1c3643,#273b47 25%,#1e5372);     
-  }   
-  
-  .footer a {
-    color: white;
-    font-size: 1rem;
-  }
-  
-  .navbar a{
-    text-align:right;
-  }
-  
-  .github {
-    width: 42px; 
-    height: 42px; 
-    margin-left: 0.5rem;  
-  }
-  
-  .Linkedin {
-    width: 43px; 
-    height: 43px;
-    margin:0%
-  }
-  
-  .mail {
-    width: 45px; 
-    height: 45px;  
-    margin:0%
-  }
-  
-  p{
-    color: aliceblue;
-  }
-  
-  #l1{
-    border-radius: 72%;
-  }
-  
-  
-  html, body {
-    max-width: 100%;
-    overflow-x: hidden;
-    }
-
-    .q{
-      height: 18rem;
-      height: 18rem;
-      transform: rotate(-35deg);
-      align-items: end;
-      margin-left: 29rem;
-      transition: 0.5s;
-      object-fit: cover;
-      
-
-    }
-    img:hover {
-
-      /*transform: scale(1.2);*/
-    }
-
-    #speakers h3,h7,h4,h5,img{       
-      margin-top: 0%;
-      margin-bottom: 0%;    
-  }
-
-  .main {  
+.main {  
     padding: 0%;
     margin-bottom: 0%;
     background-color: #04263a;      
@@ -116,9 +35,9 @@
     padding: 0%;   
     margin-right: 0%; 
     padding-right: 0%;
+    margin-bottom: 0%;
+    margin-top: 0%;
 }
-
-
 
 #img1{
     height: 20rem;
@@ -139,8 +58,6 @@
     margin-top: 0%;
 }
 
-
-
 .footer {  
     background: linear-gradient(90deg,#1c3643,#273b47 25%,#1e5372);     
 }   
@@ -155,8 +72,6 @@
 .navbar a{
     text-align:right;
 }
-
-
 
 .github {
     width: 42px; 
@@ -188,12 +103,8 @@ p{
 }
 
 
-
 html, body {
     max-width: 100%;
     overflow-x: hidden;
     }
 
-.box-img{    
-      margin-bottom: 0%;       
-  }
