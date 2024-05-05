@@ -46,6 +46,7 @@
     padding: 0%;
     margin-left: 2rem;
     margin-top: 0.3rem;
+    margin-bottom: 1rem;
 }
     
 #img2{
@@ -53,9 +54,9 @@
     width: 29rem;    
     float: right;
     padding: 0%;
-    margin-left: 3rem;
-    
+    margin-left: 3rem;    
     margin-top: 0%;
+    margin-bottom: 1.5rem;
 }
 
 .footer {  
