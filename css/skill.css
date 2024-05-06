@@ -15,17 +15,17 @@
     background-color: #04263a;      
 }
 
-.card{    
+/*.card{    
     background-color: #060a0d;    
     color: aliceblue;    
     margin-top: 0.3rem;
     margin-left: 0.3rem;  
     margin-bottom: 1.8rem;
-}
+}*/
 
 .lista{
-    list-style :none;
-    padding-left:0;
+    /*list-style :none;*/
+    /*padding-left:0;*/
 }
   
 .col{    
@@ -108,4 +108,11 @@ html, body {
     max-width: 100%;
     overflow-x: hidden;
     }
+
+.container{
+  background-color: #0c0d0d;
+  color:aliceblue;
+  width: 35rem;
+  display: flex;
+}
 
