@@ -42,11 +42,11 @@
 #img1{
     height: 20rem;
     width: 29rem;   
-    /*float: right;*/
+    float: right;
     padding: 0%;
     margin-left: 2rem;
     margin-top: 0.3rem;
-    margin-bottom: 1rem;
+    margin-bottom: 5rem;
 }
     
 #img2{
