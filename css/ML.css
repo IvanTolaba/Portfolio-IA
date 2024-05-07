@@ -158,7 +158,10 @@ p{
 #l1{
   border-radius: 72%;
 }
-
+#desactiv{
+  pointer-events: none;    
+  color:aliceblue; 
+}
 
 html, body {
   max-width: 100%;

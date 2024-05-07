@@ -90,6 +90,10 @@ p{
     opacity: 0.7;       
 }
 
+#desactiv{
+    pointer-events: none;    
+    color:aliceblue; 
+}
 
 html, body {
     max-width: 100%;
