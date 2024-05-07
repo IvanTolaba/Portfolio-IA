@@ -3,6 +3,10 @@
     width: 80px;
 }
   
+#desactiv{
+  pointer-events: none;    
+  color:aliceblue; 
+}
 #place-time {
     background-color: #343a40;
     color: white;
@@ -191,4 +195,8 @@ p{
   opacity: 0.7;       
 }
 
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+  }
 
