@@ -17,7 +17,12 @@
 .header a:hover{    
   opacity: 0.7;       
 }
-
+#se{    
+  padding-left: 0%;      
+  margin-left: 0%;  
+  margin-top: 0.2rem;
+  margin-bottom: 0%;
+}
 .main {  
     padding: 0%;
     margin-top: 0%;
