@@ -12,14 +12,6 @@
     max-width: 100%;
 }
   
-#footer {
-    background: linear-gradient(90deg,#1c3643,#273b47 25%,#1e5372);
-  }
-  
-#footer a {
-    color: white;
-}
-
 #main {  
   margin-top: 0%;
   margin-bottom: 0%;
@@ -150,6 +142,52 @@
 .img2{
   width: 14rem; 
   height: 14rem;
+}
+
+.footer {  
+  background: linear-gradient(90deg,#1c3643,#273b47 25%,#1e5372);     
+}   
+
+
+
+.footer a {
+  color: white;
+  font-size: 1rem;
+}
+
+.navbar a{
+  text-align:right;
+}
+
+
+
+.github {
+  width: 42px; 
+  height: 42px; 
+  margin-left: 0.5rem;  
+}
+
+.Linkedin {
+  width: 43px; 
+  height: 43px;
+  margin:0%
+}
+
+.mail {
+  width: 45px; 
+  height: 45px;  
+  margin:0%
+}
+
+p{
+  color: aliceblue;
+}
+
+#l1{
+  border-radius: 72%;
+}
+.nav-item a:hover{    
+  opacity: 0.7;       
 }
 
 
