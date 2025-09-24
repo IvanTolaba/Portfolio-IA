@@ -1,0 +1,202 @@
+
+#header img {
+    width: 80px;
+}
+  
+#desactiv{
+  pointer-events: none;    
+  color:aliceblue; 
+}
+#place-time {
+    background-color: #343a40;
+    color: white;
+}
+  
+#place-time img {
+    max-width: 100%;
+}
+  
+#main {  
+  margin-top: 0%;
+  margin-bottom: 0%;
+  padding: 0%;
+} 
+
+#main h3,h7,h4,h5,img{       
+    margin-top: 0%;
+    margin-bottom: 0%;
+  } 
+
+.github {
+  width: 45px; height: 45px 
+}
+
+.Linkedin {
+  width: 45px; 
+  height: 45px;  
+}
+
+.mail {
+  width: 45px; 
+  height: 45px;
+  
+}
+
+.car {  
+  padding-top: 10px;
+  }
+
+.car h3,h4,h6 { 
+  margin-top: 0rem;
+  margin-bottom: 0rem;   
+}
+
+.car p{
+  color: aliceblue;
+  font: italic;
+}
+
+.frase{
+  margin-left: 0.5rem;
+  margin-right: 1.5rem;
+  margin-top: 1.3rem;
+  padding: 0%;
+}
+
+.text-uppercas{
+  margin-left: 14rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.row{
+  display: flex;
+  margin-left: 3.9rem;
+}
+
+.cardi img{
+  width: 9rem; 
+  height: 9rem;
+  border-radius: 25%;
+  opacity: 0.85;
+  margin-bottom: 2.2rem;
+}
+
+.cardi_data img{
+  width: 9rem; 
+  height:9rem;
+  margin-bottom: 4rem;
+  margin-right: 4rem;
+  border-radius: 25%;
+  opacity: 0.859;  
+  
+}
+.row h3,h4,h5,h6{
+  
+  color: aliceblue;
+
+}
+
+.lista{
+  
+  color: aliceblue;
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+
+.bi{  
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+  }
+
+.bica{  
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+  }
+
+#main{  
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+  }
+
+.container {  
+    padding: 0%;
+    margin-left: 0.5rem;
+    margin-top: 1.4rem;
+
+}
+
+.container p{  
+    margin-top: 0rem;
+    margin-bottom: 0.7rem;
+    color: aliceblue;
+  }
+.text-start{  
+  margin-bottom: 1rem;
+}
+
+.dibujo{  
+    background-image: url("../img/d4.jpg");
+    width: 100%; 
+    height: 100%;       
+    background-repeat: no-repeat;    
+    background-attachment: fixed;
+    background-size: cover;    
+  }
+
+.img2{
+  width: 14rem; 
+  height: 14rem;
+}
+
+.footer {  
+  background: linear-gradient(90deg,#1c3643,#273b47 25%,#1e5372);     
+}   
+
+
+
+.footer a {
+  color: white;
+  font-size: 1rem;
+}
+
+.navbar a{
+  text-align:right;
+}
+
+
+
+.github {
+  width: 42px; 
+  height: 42px; 
+  margin-left: 0.5rem;  
+}
+
+.Linkedin {
+  width: 43px; 
+  height: 43px;
+  margin:0%
+}
+
+.mail {
+  width: 45px; 
+  height: 45px;  
+  margin:0%
+}
+
+p{
+  color: aliceblue;
+}
+
+#l1{
+  border-radius: 72%;
+}
+.nav-item a:hover{    
+  opacity: 0.7;       
+}
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+  }
+

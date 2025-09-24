@@ -1,0 +1,280 @@
+
+#speakers h3,h7,h4,h5,img{
+       
+  margin-top: 0%;
+  margin-bottom: 0%;
+  
+}
+
+
+#header{  
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    padding: 0%;
+    background-color: #04263a;    
+  }
+#header a{    
+    color: aliceblue;    
+}
+
+.main {  
+    padding: 0%;
+    margin-top: 0%;
+    margin-bottom: 0%;   
+    background-color: #04263a;
+    
+}
+
+.card{  
+  background-color: #060a0d;  
+  color: aliceblue;  
+  height: 28rem;
+  margin-top: 1rem;
+  margin-left: 0.3rem;
+
+}
+.lista{
+    list-style :none;
+    padding-left:0;
+}
+
+.opencv{
+    width: 3rem; 
+    height:3rem;
+    border-radius: 45%;
+}
+
+.python{
+    width: 4rem; 
+    height:4rem;
+    border-radius: 75%;
+}
+
+.col{
+  
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0%;
+  padding: 0%;
+  
+}
+.g{
+  height: 12em;
+  width: 12rem;
+  margin: 1rem;
+  float: right;
+  padding: 0%;
+}
+
+.img1{
+  height: 13em;
+  width: 13rem;
+  margin: 1rem;
+  float: right;
+  padding: 0%;
+  margin-left: 3rem;
+}
+
+.img2{
+  height: 13em;
+  width: 13rem;
+  margin: 1rem;
+  float: right;
+  padding: 0%;  
+}
+
+.img4{
+  height: 13em;
+  width: 13rem;
+  margin: 1rem;
+  float: right;
+  padding: 0%;  
+  margin-left: 3rem;
+}
+
+.h{
+  height: 13rem;
+  width: 13rem;
+  margin: 1rem;
+  float: right;
+  padding: 0%;
+}
+
+#footer {  
+  background: linear-gradient(90deg,#1c3643,#273b47 25%,#1e5372);
+  
+}
+
+#container2 {    
+  height: 0.2rem;
+  margin: 0%;
+}
+
+
+
+#footer a {
+  color: white;
+}
+
+.a{
+  height: 6rem;
+  width: 6rem;
+}
+.navbar a{
+  text-align:right;
+}
+
+.github {
+  width: 45px; 
+  height: 45px;  
+  margin-top: 0.1rem;  
+}
+.github2 {
+  width: 42px; 
+  height: 42px; 
+  margin-left: 0.5rem;  
+}
+.Linkedin {
+  width: 43px; 
+  height: 43px;
+  margin:0%
+  /*filter: grayscale(95%);*/
+}
+
+.mail {
+  width: 45px; 
+  height: 45px;  
+  margin:0%
+}
+
+p{
+  color: aliceblue;
+}
+
+.nav-item a:hover{    
+  opacity: 0.7;       
+}
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+  }
+**********************************************************
+copia codigo anteriror
+*********************************
+#header{  
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+  padding: 0%;
+  background-color: #04263a;    
+}
+#header a{    
+  color: aliceblue;    
+} 
+
+.main {  
+padding: 0%;
+margin-bottom: 0%;
+background-color: #04263a;      
+}
+
+/*.card{    
+background-color: #060a0d;    
+color: aliceblue;    
+margin-top: 0.3rem;
+margin-left: 0.3rem;  
+margin-bottom: 1.8rem;
+}*/
+
+.lista{
+/*list-style :none;*/
+/*padding-left:0;*/
+}
+
+.col{    
+display: flex;
+flex-wrap: wrap;
+margin: 0%;
+padding: 0%;   
+margin-right: 0%; 
+padding-right: 0%;
+margin-bottom: 0%;
+margin-top: 0%;
+}
+
+#img1{
+height: 20rem;
+width: 29rem;   
+float: right;
+padding: 0%;
+margin-left: 2rem;
+margin-top: 0.3rem;
+margin-bottom: 5rem;
+}
+
+#img2{
+height: 20rem;
+width: 29rem;    
+float: right;
+padding: 0%;
+margin-left: 2rem;    
+margin-top: 0%;
+margin-bottom: 1.5rem;
+}
+
+.footer {  
+background: linear-gradient(90deg,#1c3643,#273b47 25%,#1e5372);     
+}   
+
+
+
+.footer a {
+color: white;
+font-size: 1rem;
+}
+
+.navbar a{
+text-align:right;
+}
+
+.github {
+width: 42px; 
+height: 42px; 
+margin-left: 0.5rem;  
+}
+
+.Linkedin {
+width: 43px; 
+height: 43px;
+margin:0%
+}
+
+.mail {
+width: 45px; 
+height: 45px;  
+margin:0%
+}
+
+p{
+color: aliceblue;
+}
+
+#l1{
+border-radius: 72%;
+}
+.nav-item a:hover{    
+opacity: 0.7;       
+}
+
+
+html, body {
+max-width: 100%;
+overflow-x: hidden;
+}
+
+.container{
+background-color: #0c0d0d;
+color:aliceblue;
+width: 35rem;
+display: flex;
+}
