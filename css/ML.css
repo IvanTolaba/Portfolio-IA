@@ -23,6 +23,32 @@
   margin-top: 0.2rem;
   margin-bottom: 0%;
 }
+
+
+
+.btn-back {
+  display: inline-block;
+  background-color: linear-gradient(90deg,#1c3643,#273b47 25%,#1e5372); /* azul Bootstrap */
+  color: white;
+  font-weight: 500;
+  padding: 8px 16px;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.btn-back:hover {
+  background-color: #084298; /* azul más oscuro */
+  transform: translateX(-5px); /* mueve la flecha a la izquierda */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn-back:active {
+  transform: translateX(-2px) scale(0.98); /* efecto de clic */
+}
+
+
+/* Main*/
 .main {  
     padding: 0%;
     margin-top: 0%;

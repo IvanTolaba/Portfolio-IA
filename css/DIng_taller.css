@@ -1,4 +1,4 @@
-#speakers h3,h7,h4,h5,img{       
+#speakers h3,h7,h4,h5{       
     margin-top: 0%;
     margin-bottom: 0%;    
 }
@@ -48,7 +48,7 @@
 .card{    
     background-color: #101418;    
     color: aliceblue;    
-    height: 35.5rem;
+    height: 30rem;
     margin-top: 1rem;
     margin-left: 0.3rem;  
 }
@@ -99,23 +99,7 @@
     padding: 0%;
 }
 
-#img1{
-    height: 15rem;
-    width: 39rem;
-    margin: 0.3rem;
-    float: right;
-    padding: 0%;
-    margin-left: 3rem;
-}
 
-.img2{
-    height: 4rem;
-    width: 18rem;
-    padding: 0%;  
-    margin-top: 1rem;
-    margin-left: 3.2rem;
-    margin-bottom: 0.5rem;
-}
 
 .w{
     height: 14Sem;
@@ -124,15 +108,7 @@
     margin-left: 0.8rem;
 }
     
-#img3{
-    height: 15rem;
-    width: 39rem;
-    margin: 0.3rem;
-    float: right;
-    padding: 0%;
-    margin-left: 3rem;
-    margin-bottom: 2rem;
-}
+
 
 .h{
     height: 13rem;
@@ -142,6 +118,39 @@
     padding: 0%;
 }
 
+
+
+#img_modelo,
+#img_cu,
+#img_colab {
+  width: 100%;      /* ocupa el ancho de su columna */
+  height: auto;     /* mantiene proporción */
+  object-fit: contain;
+}
+
+#img_wb {
+  height: 5rem;     /* logo más chico */
+  width: auto;
+  margin: auto;
+  margin-top: 0.9rem;
+  }
+  
+#img_modelo {
+  margin: 0.5rem auto;
+  object-fit: contain; /* mantiene proporción */
+  height: 15rem;
+  width: 25rem;
+
+}
+
+/* Para que las dos de abajo sean alargadas */
+#img_cu,
+#img_colab {
+  height: 200px;   /* 🔧 ajustá según quieras */
+  width: 100%;
+  object-fit: cover; /* se recorta para mantener forma */
+  margin-top: 0.5rem;
+}
 
 /* Footer*/
 .footer {  
