@@ -149,6 +149,17 @@
   height: 14rem;
 }
 
+.cardi_data, .cardi {
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.cardi_data:hover, .cardi:hover {
+  transform: translateY(-10px); /* se eleva */
+  box-shadow: 0 8px 25px rgba(0,0,0,0.4);
+}
+
+
+/* Footer*/
 .footer {  
   background: linear-gradient(90deg,#1c3643,#273b47 25%,#1e5372);     
 }   
