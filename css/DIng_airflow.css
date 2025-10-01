@@ -1,0 +1,194 @@
+#speakers h3,h7,h4,h5{       
+    margin-top: 0%;
+    margin-bottom: 0%;    
+}
+
+
+#header{  
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    margin-left: 0%;
+    padding: 0%;
+    /*padding-left: 0rem;*/
+    background-color: #04263a;    
+}
+
+#header a{             
+    color: aliceblue;    
+}
+.header a:hover{    
+    opacity: 0.7;       
+}
+
+#re{    
+    padding-left: 0%;      
+    margin-left: 0%;    
+}
+
+#se{    
+    padding-left: 0%;      
+    margin-left: 0%;  
+    margin-top: 0.2rem;
+    margin-bottom: 0%;
+}
+.header a{
+    font-size: 16px;
+    font-family: "Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+
+/* Main*/
+.main {  
+    padding: 0%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    background-color: #04263a;      
+}
+
+.card{    
+    background-color: #101418;    
+    color: aliceblue;    
+    height: 37rem;
+    margin-top: 1rem;
+    margin-left: 0.3rem;  
+}
+
+.lista{
+    list-style :none;
+    padding-left:0;
+}
+  
+.container{
+  padding-left: 0%;
+  margin-left: 0.8rem;
+  margin-top:0.5rem; 
+  padding: 0%; 
+  /*padding-right: 0%*/
+  margin-right: 1rem;
+  }
+  
+.container p{
+  margin-left: 0rem;
+  margin-top: 0.7rem;  
+  align-items: flex-start;
+  font-size: 19.5px;  
+} 
+
+
+
+.python{
+    width: 4rem; 
+    height:4rem;
+    border-radius: 75%;
+}
+
+
+.g{
+    height: 12em;
+    width: 12rem;
+    margin: 1rem;
+    float: right;
+    padding: 0%;
+}
+
+/* Todas las imágenes responsivas */
+
+
+.custom-img {
+  display: block;
+  margin: 0 auto; /* centra */
+}
+
+#img1 {
+  width: 31rem;
+  height: 9rem;
+  margin-top: 1rem;
+}
+
+#img2 {
+  width: 31rem;
+  height: 15rem;
+}
+
+#img3 {
+  width: 31rem;
+  height: 11rem;
+  margin-bottom: 1rem;
+}
+
+
+
+
+.w{
+    height: 14Sem;
+    width: 17rem;
+    padding: 0%;  
+    margin-left: 0.8rem;
+}
+
+.h{
+    height: 13rem;
+    width: 13rem;
+    margin: 1rem;
+    float: right;
+    padding: 0%;
+}
+
+
+/* Footer*/
+.footer {  
+    background: linear-gradient(90deg,#1c3643,#273b47 25%,#1e5372);     
+}   
+
+
+
+.footer a {
+    color: white;
+    font-size: 1rem;
+}
+
+.navbar a{
+    text-align:right;
+}
+
+
+
+.github {
+    width: 42px; 
+    height: 42px; 
+    margin-left: 0.5rem;  
+}
+
+.Linkedin {
+    width: 43px; 
+    height: 43px;
+    margin:0%
+}
+
+.mail {
+    width: 45px; 
+    height: 45px;  
+    margin:0%
+}
+
+p{
+    color: aliceblue;
+}
+
+#l1{
+    border-radius: 72%;
+}
+.nav-item a:hover{    
+    opacity: 0.7;       
+}
+
+#desactiv{
+    pointer-events: none;    
+    color:aliceblue; 
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    }
+
