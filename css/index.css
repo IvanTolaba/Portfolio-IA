@@ -80,6 +80,7 @@
   margin-left: 0; /* Eliminamos el 3.9rem que te lo desviaba a la derecha */
   margin-right: 0;
   gap: 30px; /* Espaciado moderno y limpio entre tus dos tarjetas */
+  
 }
 
 
@@ -100,11 +101,12 @@
   border-radius: 25%;
   opacity: 0.85;
   margin-bottom: 1rem; /* Reducido para que esté más cerca del texto */
+  
 }
 
 .row h3,h4,h5,h6{
   
-  color: aliceblue;
+  color: aliceblue; 
 
 }
 
@@ -153,21 +155,25 @@
 .dibujo {
         background: radial-gradient(circle at top right, rgba(0, 210, 255, 0.08), transparent 40%);
         padding-bottom: 80px;
-      }
+        
+}        
 
 
 .img2{
   width: 14rem; 
   height: 14rem;
+  
 }
 
 .cardi_data, .cardi {
   transition: transform 0.4s ease, box-shadow 0.4s ease;
+  
 }
 
 .cardi_data:hover, .cardi:hover {
   transform: translateY(-10px); /* se eleva */
   box-shadow: 0 8px 25px rgba(0,0,0,0.4);
+  filter: drop-shadow(0px 0px 8px rgba(0, 210, 255, 0.7)); /* Brillo cyan en el logo */
 }
 
 
@@ -244,7 +250,7 @@ html, body {
   flex-direction: column;
   align-items: center;
   margin: 0; /* Resetea el margen por defecto de <figure> */
-  cursor: pointer;
+  cursor: default;
   transition: transform 0.3s ease;
 }
 
@@ -267,16 +273,6 @@ html, body {
   transition: color 0.3s ease;
 }
 
-/* Efecto hover completo: afecta al logo y al texto cuando pasas el mouse por el bloque */
-.tech-item:hover {
-/*  transform: scale(1.1); /* Crece sutilmente el bloque entero */
-}
-
-.tech-item:hover img {
-  opacity: 1;
-  filter: drop-shadow(0px 0px 8px rgba(0, 210, 255, 0.7)); /* Brillo cyan en el logo */
-}
-
 .tech-item:hover figcaption {
   color: #00d2ff; /* El texto se vuelve cyan al pasar el mouse */
 }
@@ -287,15 +283,15 @@ html, body {
   margin-bottom: 1rem; /* Reducido para emparejar con la otra tarjeta */
   border-radius: 25%;
   opacity: 0.859;    
+  
 }
-
-
 
 /* Estilo para los títulos de las tarjetas de proyectos */
 .card-title {
   margin-bottom: 12px !important;
   font-weight: 600;
   letter-spacing: 0.5px;
+  
 }
 
 /* codigo nuevo */
@@ -309,5 +305,5 @@ html, body {
 /* Ajuste opcional para asegurar que tu degradado se mezcle perfecto */
 .dibujo {
   background: radial-gradient(circle at top right, rgba(0, 210, 255, 0.12), transparent 50%);
-  padding-bottom: 80px;
+  padding-bottom: 20px;
 }

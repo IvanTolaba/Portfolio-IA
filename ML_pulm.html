@@ -43,7 +43,7 @@
       <div class="card h-100">
         <div class="card-body">
           <h5 class="card-title">
-            Bioingeniería: detección de enfermedades pulmonares con Deep Learning
+            End to End Bioingeniería: detección de enfermedades pulmonares con Deep Learning
           </h5>
           <ul class="lista">
             <li>Tareas:</li>
@@ -61,24 +61,49 @@
     </section>   
     
     <!-- Columna derecha: imágenes -->
-    <div class="col-12 col-lg-8">
-      <!-- Fila superior: arquitectura -->
-      <div class="row mb-3">
-        <div class="col-12 d-flex justify-content-center">
-          <img class="img-fluid img1" src="img/CNN-BLSTM11.png" alt="Arquitectura">
-        </div>
-      </div>
-
-      <!-- Fila inferior: resultados + curva ROC -->
-      <div class="row g-3">
-        <div class="col-12 col-md-4 d-flex justify-content-center">
-          <img class="img-fluid" id="img2" src="img/res_blstm.PNG" alt="Resultados">
-        </div>
-        <div class="col-12 col-md-8 d-flex justify-content-center">
-          <img class="img-fluid" id="img3" src="img/roc-cnn-blstm1.png" alt="Curva ROC">
-        </div>
-      </div>
+    <div class="col-12 col-lg-8 d-flex flex-column align-items-center ps-3 ps-lg-0 pe-3 pe-lg-4">
+    
+    <div class="box-img mb-4 w-100 text-center">
+        <h6 class="text-white-50 mb-2 text-start">1. Pipeline End-to-End de Aprendizaje Profundo</h6>
+        <img class="img-fluid custom-img" src="img/Ding_ML/mlport3.png" alt="Pipeline ML">
     </div>
+    
+    <div class="box-img mb-4 w-100 text-center">
+        <h6 class="text-white-50 mb-2 text-start">2. Extracción de Características Acústicas (Espectrogramas MFCC)</h6>
+        <img class="img-fluid custom-img" src="img/Ding_ML/mfcc.PNG" alt="Procesamiento MFCC">
+    </div>
+    
+    <div class="box-img mb-4 w-100 text-center">
+        <h6 class="text-white-50 mb-2 text-start">3. Arquitectura de la Red Neuronal Híbrida (CNN-LSTM)</h6>
+        <img class="img-fluid custom-img" src="img/Ding_ML/red1.PNG" alt="Arquitectura de Red">
+    </div>
+    
+    <div class="box-img mb-4 w-100 text-center">
+        <h6 class="text-white-50 mb-2 text-start">4. Evaluación del Modelo: Matriz de Confusión</h6>
+        <img class="img-fluid custom-img" src="img/Ding_ML/mc_esp.png" alt="Matriz de Confusión">
+    </div>
+    
+    <div class="box-img mb-4 w-100 text-center">
+        <h6 class="text-white-50 mb-2 text-start">5. Curvas de Aprendizaje y ROC-AUC</h6>
+        <img class="img-fluid custom-img" src="img/Ding_ML/cr1.PNG" alt="Curvas de rendimiento">
+    </div>
+
+    <div class="box-img mb-4 w-100 text-center">
+        <h6 class="text-white-50 mb-2 text-start">6. Reporte de Métricas de Clasificación por Patología</h6>
+        <img class="img-fluid custom-img" src="img/Ding_ML/metric.PNG" alt="Métricas del modelo">
+    </div>
+    
+    <div class="box-img mb-4 w-100 text-center">
+        <h6 class="text-white-50 mb-2 text-start">7. Documentación Interactiva de la API (Swagger UI en Render)</h6>
+        <img class="img-fluid custom-img" src="img/Ding_ML/predict.PNG" alt="FastAPI Swagger UI">
+    </div>
+    
+    <div class="box-img mb-3 w-100 text-center">
+        <h6 class="text-white-50 mb-2 text-start">8. Demostración de Inferencia en Tiempo Real</h6>
+        <img class="img-fluid custom-img" src="img/Ding_ML/Animation.gif" alt="Demo interactiva">
+    </div> 
+                   
+</div>
 
   </section>
 </main>

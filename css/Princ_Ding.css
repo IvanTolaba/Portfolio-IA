@@ -186,10 +186,31 @@ html, body {
   overflow: hidden;
 }
 
+/* --- Ajustes específicos para la Tarjeta Estrella Destacada --- */
+.card-featured {
+  max-width: 100% !important; 
+  background-color: #0c1922 !important; 
+  border: 1px solid #ffc107 !important; 
+  border-radius: 12px;
+  overflow: hidden;
+  display: flex; /* Asegura un comportamiento flexible */
+}
+
+/* Modifica esta clase exacta por el siguiente bloque: */
 .card-img-horizontal {
   width: 100%;
-  height: 280px;
-  object-fit: cover;
+  height: 100% !important;    /* 👈 Fuerza el 100% del alto dinámico de la ficha */
+  min-height: 100%;           /* Evita espacios en blanco */
+  object-fit: cover;          /* Recorta simétricamente la imagen si sobra espacio */
+  object-position: center;    /* Centra la imagen al recortarla */
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px; /* Redondea la esquina inferior izquierda */
+}
+
+/* Asegura que la columna contenedora ocupe todo el alto */
+.card-featured .col-md-5 {
+  display: flex;
+  align-items: stretch;
 }
 
 /* Insignia dorada del proyecto estrella */
@@ -217,4 +238,16 @@ html, body {
 /* Botón del proyecto estrella que hereda el ancho automático */
 .w-auto {
   width: auto !important;
+}
+
+#data-engineering-projects .lista-tareas {
+  list-style-type: disc; /* Fuerza el punto redondo nativo */
+  padding-left: 20px;    /* Margen izquierdo para que se alineen los puntos */
+  color: aliceblue;
+}
+
+#data-engineering-projects .lista-tareas li {
+  margin-bottom: 0.75rem; /* Agrega espacio de separación entre cada tarea */
+  line-height: 1.5;       /* Mejora el interlineado si el texto ocupa dos renglones */
+  font-size: 0.95rem;     /* Tamaño ideal para la lectura */
 }
