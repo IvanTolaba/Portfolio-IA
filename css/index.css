@@ -69,18 +69,19 @@
   margin-bottom: 1rem;
 }
 
-.row{
+
+
+
+/* BUSCA ESTA CLASE Y REEMPLÁZALA */
+.row {
   display: flex;
-  margin-left: 3.9rem;
+  flex-wrap: wrap; /* Permite que en celulares se ponga uno abajo del otro */
+  justify-content: center; /* Centrado absoluto */
+  margin-left: 0; /* Eliminamos el 3.9rem que te lo desviaba a la derecha */
+  margin-right: 0;
+  gap: 30px; /* Espaciado moderno y limpio entre tus dos tarjetas */
 }
 
-.cardi img{
-  width: 9rem; 
-  height: 9rem;
-  border-radius: 25%;
-  opacity: 0.85;
-  margin-bottom: 2.2rem;
-}
 
 .cardi_data img{
   width: 9rem; 
@@ -91,6 +92,16 @@
   opacity: 0.859;  
   
 }
+
+/* BUSCA ESTAS CLASES Y QUITALES LOS MARGENES INDIVIDUALES */
+.cardi img {
+  width: 9rem; 
+  height: 9rem;
+  border-radius: 25%;
+  opacity: 0.85;
+  margin-bottom: 1rem; /* Reducido para que esté más cerca del texto */
+}
+
 .row h3,h4,h5,h6{
   
   color: aliceblue;
@@ -119,30 +130,31 @@
     margin-bottom: 0rem;
   }
 
+/* BUSCA LA CLASE CONTAINER Y CONFIGURALA ASÍ */
 .container {  
-    padding: 0%;
-    margin-left: 0.5rem;
-    margin-top: 1.4rem;
-
+  padding: 0%;
+  margin: 0 auto; /* El 'auto' centra el contenedor en cualquier pantalla */
+  margin-top: 1.4rem;
 }
 
 .container p{  
     margin-top: 0rem;
-    margin-bottom: 0.7rem;
+    margin-bottom: 0.1rem;
     color: aliceblue;
+    text-align: center;
   }
+
+
 .text-start{  
   margin-bottom: 1rem;
 }
 
-.dibujo{  
-    background-image: url("../img/d4.jpg");
-    width: 100%; 
-    height: 100%;       
-    background-repeat: no-repeat;    
-    background-attachment: fixed;
-    background-size: cover;    
-  }
+
+.dibujo {
+        background: radial-gradient(circle at top right, rgba(0, 210, 255, 0.08), transparent 40%);
+        padding-bottom: 80px;
+      }
+
 
 .img2{
   width: 14rem; 
@@ -164,8 +176,6 @@
   background: linear-gradient(90deg,#1c3643,#273b47 25%,#1e5372);     
 }   
 
-
-
 .footer a {
   color: white;
   font-size: 1rem;
@@ -174,8 +184,6 @@
 .navbar a{
   text-align:right;
 }
-
-
 
 .github {
   width: 42px; 
@@ -211,3 +219,95 @@ html, body {
   overflow-x: hidden;
   }
 
+/* Nuevo codigo */
+.profile-subtitle {
+        color: #00d2ff; /* Cyan para destacar tus roles */
+        font-weight: 600;
+        margin-bottom: 20px;
+        text-align:center;
+      }
+
+/* Contenedor principal de los elementos */
+.tech-box-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 24px; /* Espacio uniforme entre cada bloque tecnológico */
+  margin-top: 25px;
+  padding: 15px;
+}
+
+/* Contenedor individual de cada Logo + Texto */
+.tech-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0; /* Resetea el margen por defecto de <figure> */
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+/* Control de la imagen del logo */
+.tech-item img {
+  height: 38px; /* Altura uniforme para todos */
+  width: auto;  /* Mantiene la proporción */
+  opacity: 0.85;
+  filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.5));
+  transition: all 0.3s ease;
+}
+
+/* Estilo para la leyenda / título de abajo */
+.tech-item figcaption {
+  color: #a0aec0; /* Gris sutil para que no compita con los textos principales */
+  font-size: 0.75rem; /* Tamaño pequeño y elegante */
+  margin-top: 6px; /* Separación del logo */
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  transition: color 0.3s ease;
+}
+
+/* Efecto hover completo: afecta al logo y al texto cuando pasas el mouse por el bloque */
+.tech-item:hover {
+/*  transform: scale(1.1); /* Crece sutilmente el bloque entero */
+}
+
+.tech-item:hover img {
+  opacity: 1;
+  filter: drop-shadow(0px 0px 8px rgba(0, 210, 255, 0.7)); /* Brillo cyan en el logo */
+}
+
+.tech-item:hover figcaption {
+  color: #00d2ff; /* El texto se vuelve cyan al pasar el mouse */
+}
+
+.cardi_data img {
+  width: 9rem; 
+  height: 9rem;
+  margin-bottom: 1rem; /* Reducido para emparejar con la otra tarjeta */
+  border-radius: 25%;
+  opacity: 0.859;    
+}
+
+
+
+/* Estilo para los títulos de las tarjetas de proyectos */
+.card-title {
+  margin-bottom: 12px !important;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+/* codigo nuevo */
+
+/* Fuerza el fondo oscuro en toda la página para todos los navegadores */
+html, body {
+  background-color: #0e171e; /* Un tono azul oscuro/grisáceo que combina excelente con tu footer */
+  color: #f0f4f8; /* Color de texto por defecto claro */
+}
+
+/* Ajuste opcional para asegurar que tu degradado se mezcle perfecto */
+.dibujo {
+  background: radial-gradient(circle at top right, rgba(0, 210, 255, 0.12), transparent 50%);
+  padding-bottom: 80px;
+}
