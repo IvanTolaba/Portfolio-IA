@@ -92,7 +92,6 @@ body {
 .card-img-top {
   height: 180px;       /* todas iguales */
   object-fit: cover;   /* recorta si sobra */
-
 }
 
 .card-body {
@@ -188,11 +187,31 @@ html, body {
   overflow: hidden;
 }
 
+
+
+/* 1. Evitamos que la regla max-width afecte a la tarjeta destacada */
+#data-engineering-projects .card.card-featured {
+    max-width: 100% !important;
+    margin: 0;
+}
+
+/* 2. Hacemos que la imagen horizontal ocupe todo su contenedor y se centre */
 .card-img-horizontal {
-  width: 80%;
-  height: 200px;
-  object-fit: cover;
-  
+    width: 100% !important;   /* Cambiamos de 80% a 100% para que llene su columna */
+    height: 100%;            /* Toma el alto completo de la tarjeta automáticamente */
+    min-height: 280px;       /* Un alto mínimo para que mantenga buena proporción */
+    object-fit: cover;       /* Recorta de forma inteligente sin deformar */
+    display: block;
+}
+
+/* 3. Opcional: Redondear los bordes izquierdos de la imagen en pantallas grandes */
+@media (min-width: 768px) {
+    .card-img-horizontal {
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
 }
 
 /* Insignia absoluta del proyecto estrella */
@@ -233,3 +252,10 @@ html, body {
   line-height: 1.5;       /* Mejora el interlineado si el texto ocupa dos renglones */
   font-size: 0.95rem;     /* Tamaño ideal para la lectura */
 }
+
+/* 1. Evitamos que la regla max-width afecte a la tarjeta destacada */
+#data-engineering-projects .card.card-featured {
+    max-width: 100% !important;
+    margin: 0;
+}
+

@@ -105,6 +105,7 @@
     padding: 0%;
 }
 
+
 #img1{
     height: 15rem;
     width: 39rem;
@@ -146,6 +147,10 @@
     margin: 1rem;
     float: right;
     padding: 0%;
+}
+
+#img_global{
+    margin-top: 10rem;
 }
 
 
