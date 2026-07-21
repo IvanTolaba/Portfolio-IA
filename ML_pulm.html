@@ -43,19 +43,19 @@
       <div class="card h-100">
         <div class="card-body">
           <h5 class="card-title">
-            Bioingeniería: detección de enfermedades pulmonares con Deep Learning
+            Sistema End-to-End para Detección de Enfermedades Pulmonares mediante Deep Learning
           </h5>
           <ul class="lista">
             <li>Tareas:</li>
-            <li>• Implementé pipelines ETL para procesar audios respiratorios, incluyendo extracción, control de calidad, balanceo y normalización de señales.</li>
+            <li>• Implementé un pipeline de procesamiento para sonidos respiratorios que incluyó adquisición de datos, control de calidad, segmentación, normalización, extracción de características MFCC y preparación del conjunto de entrenamiento.</li>
             <li>• Extraje características acústicas con coeficientes cepstrales en la escala Mel (MFCC) para representar patrones bioacústicos relevantes.</li>
-            <li>• Diseñé, entrené y evalué modelos de Deep Learning (CNN, BiLSTM, CNN-LSTM Y CNN-BiLSTM) para la clasificación de asma, EPOC, neumonía y condición normal, alcanzando métricas superiores al 81% de exactitud en todos los casos.</li>
+            <li>• Diseñé, entrené y evalué cuatro arquitecturas de Deep Learning (CNN, BiLSTM, CNN-LSTM y CNN-BiLSTM), alcanzando una exactitud superior al 81% y seleccionando CNN-LSTM como modelo final para producción.</li>
           </ul>  
                                  
           <a href="https://github.com/IvanTolaba/pulmonary-disease-detection-audio-deep-learning/tree/main" 
              class="btn btn-primary stretched-link" target="_blank" rel="noopener noreferrer">GitHub</a>
           <img class="github" src="img/github3.png">  
-          <p>Tecnologías: Python, Keras</p>
+          <p>Tecnologías: Python • TensorFlow • Keras • Librosa • Scikit-learn • PySpark • FastAPI • Docker • Render</p>
         </div>
       </div>
     </section>   
@@ -68,12 +68,12 @@
     </div>
     
     <div class="box-img mb-4 w-100 text-center">
-        <h6 class="text-white-50 mb-2 text-start">2. Tabla Comparativa de Rendimiento de los modelos</h6>
+        <h6 class="text-white-50 mb-2 text-start">2. Comparación de Desempeño de los Modelos</h6>
         <img class="img-fluid custom-img" src="img/Ding_ML/modelos-metric.PNG" alt="Procesamiento MFCC">
     </div>
     
     <div class="box-img mb-4 w-100 text-center">
-        <h6 class="text-white-50 mb-2 text-start">3. Arquitectura de la Red Neuronal Híbrida CNN-LSTM</h6>
+        <h6 class="text-white-50 mb-2 text-start">3. Arquitectura del Modelo Seleccionado (CNN-LSTM)</h6>
         <img class="img-fluid custom-img" src="img/Ding_ML/arq-cnn-lstm.PNG" alt="Arquitectura de Red">
     </div>
     
@@ -89,12 +89,12 @@
 
 
     <div class="box-img mb-4 w-100 text-center">
-        <h6 class="text-white-50 mb-2 text-start">7. Documentación Interactiva de la API (Swagger UI en Render)</h6>
+        <h6 class="text-white-50 mb-2 text-start">7. API REST desplegada (Swagger UI)</h6>
         <img class="img-fluid custom-img" src="img/Ding_ML/predict.PNG" alt="FastAPI Swagger UI">
     </div>
     
     <div class="box-img mb-3 w-100 text-center">
-        <h6 class="text-white-50 mb-2 text-start">8. Demostración de Inferencia en Tiempo Real</h6>
+        <h6 class="text-white-50 mb-2 text-start">8. Inferencia en Producción mediante FastAPI</h6>
         <img class="img-fluid custom-img" src="img/Ding_ML/Animation.gif" alt="Demo interactiva">
     </div> 
                    
