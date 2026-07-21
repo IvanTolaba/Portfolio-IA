@@ -44,12 +44,25 @@
     background-color: #04263a;      
 }
 
-.card{    
+.card {    
     background-color: #101418;    
     color: aliceblue;    
-    height: 35.5rem;
+    /* Cambiamos height por min-height para que crezca si el texto lo requiere */
+       
     margin-top: 1rem;
     margin-left: 0.3rem;  
+    
+    /* Opcional: Esto ayuda a que el contenido se estire bien por dentro */
+    display: flex;
+    flex-direction: column;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: space-between; /* Empuja las tecnologías y el botón de GitHub al fondo */
+    
 }
 
 .lista{
