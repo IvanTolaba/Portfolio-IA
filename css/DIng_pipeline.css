@@ -73,8 +73,6 @@
   font-size: 19.5px;  
 } 
 
-
-
 .python{
     width: 4rem; 
     height:4rem;
@@ -117,7 +115,7 @@
 }
 
 .w{
-    height: 14Sem;
+    height: 14rem;
     width: 17rem;
     padding: 0%;  
     margin-left: 0.8rem;
@@ -198,3 +196,18 @@ html, body {
     max-width: 100%;
     overflow-x: hidden;
     }
+
+/*codigo nuevo*/
+.custom-img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+    border: 1px solid #1a3a52; /* Un borde sutil que combine con tu fondo azul #04263a */
+}
+
+/* Ajuste opcional para las imágenes de evaluación juntas */
+@media (max-width: 576px) {
+    .evaluation-img {
+        max-width: 100% !important; /* En móviles se apilan una abajo de la otra */
+    }
+}
