@@ -120,6 +120,11 @@
     padding: 0%;
 }
 
+#pipelin {
+    max-width: 760px; /* La matriz de confusión suele verse mejor más chica */
+    height: auto;
+    width: 100%;
+}
 
 #img-matriz {
     max-width: 420px; 
@@ -260,5 +265,12 @@ html, body {
 @media (max-width: 576px) {
     .evaluation-img {
         max-width: 100% !important; /* En móviles se apilan una abajo de la otra */
+    }
+}
+
+/* Ajuste de precisión para pantallas grandes */
+@media (min-width: 992px) {
+    .col-lg-8 .box-img:first-child {
+        margin-top: 0 !important; /* Elimina cualquier espacio fantasma en la primera imagen */
     }
 }
