@@ -225,3 +225,10 @@ html, body {
         max-width: 100% !important; /* En móviles se apilan una abajo de la otra */
     }
 }
+
+/* Ajuste de precisión para pantallas grandes (escritorio) */
+@media (min-width: 992px) {
+    .col-lg-8 .box-img:first-child {
+        margin-top: 0 !important; /* Quita márgenes heredados del primer contenedor */
+    }
+}
