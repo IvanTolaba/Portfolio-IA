@@ -122,35 +122,40 @@
 
 
 #img-matriz {
-    max-width: 420px; /* La matriz de confusión suele verse mejor más chica */
+    max-width: 420px; 
+    width: 100%;       /* Permite que se contraiga en pantallas menores a 420px */
     height: auto;
 }
 
-
 #ROC-AUC {
-    max-width: 420px; /* La matriz de confusión suele verse mejor más chica */
+    max-width: 420px; 
+    width: 100%;       /* Permite que se contraiga en pantallas menores a 420px */
     height: auto;
 }
 
 
 #metricas {
-    max-width: 560px; /* La matriz de confusión suele verse mejor más chica */
+    max-width: 560px; 
+    width: 100%;       /* Permite que se contraiga en pantallas menores a 560px */
     height: auto;
 }
 
 #arquitectura {
-    max-width: 740px; /* La matriz de confusión suele verse mejor más chica */
+    max-width: 740px; 
+    width: 100%;       /* Permite que se contraiga en pantallas menores a 740px */
     height: auto;
 }
 
 #api {
     max-width: 750px; /* La matriz de confusión suele verse mejor más chica */
     height: auto;
+    width: 100%;
 }
 
 #ui {
     max-width: 750px; /* La matriz de confusión suele verse mejor más chica */
     height: auto;
+    width: 100%;
 }
 
 .w{
