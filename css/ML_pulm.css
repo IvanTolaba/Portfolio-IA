@@ -58,7 +58,6 @@
 }
 
 
-
 /* Main */
 
 .main {  
@@ -121,19 +120,19 @@
 }
 
 #pipelin {
-    max-width: 760px; /* La matriz de confusión suele verse mejor más chica */
+    max-width: 740px; /* La matriz de confusión suele verse mejor más chica */
     height: auto;
     width: 100%;
 }
 
 #img-matriz {
-    max-width: 420px; 
+    max-width: 380px; 
     width: 100%;       /* Permite que se contraiga en pantallas menores a 420px */
     height: auto;
 }
 
 #ROC-AUC {
-    max-width: 420px; 
+    max-width: 380px; 
     width: 100%;       /* Permite que se contraiga en pantallas menores a 420px */
     height: auto;
 }
