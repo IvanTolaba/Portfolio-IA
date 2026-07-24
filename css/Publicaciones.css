@@ -1,0 +1,163 @@
+/* HEADER */
+#header {  
+  margin: 0;
+  padding: 0;
+  background-color: #04263a;    
+}
+#header a {    
+  color: aliceblue;    
+} 
+.header a:hover {    
+  opacity: 0.7;      
+  border-bottom: 2px solid #00b4d8; 
+}
+
+/* MAIN */
+.main {  
+  padding-top: 0.5rem;
+  margin-bottom: 0;
+  background-color: #04263a;      
+}
+
+/* Contenedor general */
+.contenedor-principal {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 2rem;
+  flex-wrap: wrap; /* 👈 hace que en pantallas chicas baje */
+}
+
+/* Columna de texto (Cursos en negro) */
+.contenedor {
+  flex: 1 1 300px; /* ocupa espacio flexible, mínimo 300px */
+  background-color: #161716; /* 👈 fondo negro */
+  padding: 1rem;
+  border-radius: 5px;
+  color: aliceblue;
+}
+
+/* Títulos */
+.contenedor h5 {
+  margin: 0.5rem 0;
+  line-height: 1.5;
+  color: aliceblue;
+}
+
+/* Listas */
+.contenedor li {
+  font-size: 16px;
+  color: aliceblue;
+  margin-bottom: 0.3rem;
+}
+
+.container-cursos {
+  background-color: #101418; /* color de fondo */
+  color: #f0f0f0;              /* color del texto */
+  padding: 0.1px;            /* opcional: espaciado interno */
+  border-radius: 8px;       /* opcional: esquinas redondeadas */
+}
+
+
+/* Columna de imágenes */
+.contenedor-imagenes {
+  flex: 1 1 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+#img2{
+    padding: 0%;
+    
+    margin-bottom: 2.9rem;
+}
+
+/* Imágenes */
+.certificado {
+  width: 100%;       
+  max-width: 462px;  
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.3);
+}
+
+#bloque2{
+    margin-top: 4.9rem;
+}
+
+
+/* FOOTER */
+.footer {  
+  background: linear-gradient(90deg,#1c3643,#273b47 25%,#1e5372);     
+}   
+.footer a {
+  color: white;
+  font-size: 1rem;
+}
+
+.navbar a {
+  text-align:right;
+}
+
+.github {
+  width: 42px; 
+  height: 42px; 
+  margin-left: 0.5rem;  
+}
+.Linkedin {
+  width: 43px; 
+  height: 43px;
+  margin:0%
+}
+.mail {
+  width: 45px; 
+  height: 45px;  
+  margin:0%
+}
+p {
+  color: aliceblue;
+}
+#l1 {
+  border-radius: 72%;
+}
+.nav-item a:hover {    
+  opacity: 0.7;       
+}
+#desactiv {
+  pointer-events: none;    
+  color:aliceblue; 
+}
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/* Código nuevo */
+.contenedor-principal{
+    display:flex;
+    gap:2rem;
+    align-items:flex-start;
+}
+
+.contenedor-texto{
+    width:55%;
+}
+
+.contenedor-imagenes{
+    width:45%;
+}
+
+.certificado{
+    width:100%;
+    max-width:520px;
+    height:auto;
+}
+
+/* codigo nuevo*/
+
+.profile-subtitle {
+        color: #00d2ff; /* Cyan para destacar tus roles */
+
+      }
