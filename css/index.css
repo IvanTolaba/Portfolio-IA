@@ -307,3 +307,44 @@ html, body {
   background: radial-gradient(circle at top right, rgba(0, 210, 255, 0.12), transparent 50%);
   padding-bottom: 20px;
 }
+
+/* cv*/
+/* ================= BOTÓN CV RESPONSIVO ================= */
+/* ================= BOTÓN CV RESPONSIVO (CON ANIMACIÓN) ================= */
+.btn-cv-responsivo {
+  white-space: normal !important; 
+  word-wrap: break-word;
+  
+  /* Control de tamaño */
+  width: 100%;
+  max-width: 230px; /* Un pelín más ancho para que el ícono y el texto respiren bien */
+  padding-top: 0.8rem !important;
+  padding-bottom: 0.8rem !important;
+  border-width: 1.8px;
+  
+  /* Tipografía mejorada */
+  font-size: 1.1rem; 
+  font-weight: 500; /* 👈 Mejor legibilidad sobre fondo oscuro */
+  
+  /* Transición suave para la animación */
+  transition: transform 0.25s ease, box-shadow 0.25s ease, background-color 0.25s ease;
+}
+
+/* Efecto Hover Profesional */
+.btn-cv-responsivo:hover {
+  transform: translateY(-3px) !important; /* Eleva el botón sutilmente */
+  box-shadow: 0 6px 18px rgba(0, 180, 216, 0.35) !important; /* Brillo cian suave abajo */
+}
+
+/* Ajuste automático para Celulares */
+@media (max-width: 575px) {
+  .btn-cv-responsivo {
+    font-size: 0.95rem; 
+    padding: 0.6rem 1rem !important; 
+    max-width: 85%; 
+  }
+  /* Opcional: Desactivar el translateY en móvil para evitar saltos raros al tocar con el dedo */
+  .btn-cv-responsivo:hover {
+    transform: none !important;
+  }
+}
