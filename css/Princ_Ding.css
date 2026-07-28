@@ -37,6 +37,120 @@
     font-family: "Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
 }
 
+/* --- Ajustes del Header Responsivo --- */
+#header {  
+    margin: 0;
+    padding: 0.5rem 1rem;
+    background-color: #04263a;    
+}
+
+/* Forzar que el texto de la marca mantenga tu color claro y no se rompa */
+.navbar-brand {
+    color: aliceblue !important;
+    font-size: 1.1rem;
+    white-space: normal; /* Permite salto de línea controlado en pantallas muy chicas */
+}
+
+/* Estilos de tus enlaces de navegación */
+#header .nav-link {             
+    color: rgba(240, 248, 255, 0.85) !important; /* Aliceblue con opacidad suave */
+    font-size: 16px;
+    font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    transition: all 0.2s ease;
+}
+
+#header .nav-link:hover {    
+    color: #00b4d8 !important; /* Cambio de color directo en hover */
+    opacity: 1;      
+    border-bottom: 2px solid #00b4d8; 
+}
+
+/* Ajustes específicos para móviles */
+@media (max-width: 991.98px) {
+    .navbar-nav {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        align-items: flex-start !important; /* Alinea los textos a la izquierda en celulares */
+    }
+    #header .nav-link {
+        width: 100%;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1); /* Separador sutil móvil */
+    }
+    #header .nav-link:hover {
+        border-bottom: 1px solid #00b4d8;
+    }
+}
+
+/* nuevo codigo header*/
+/* Escritorio */
+.text-desktop{
+    display:inline;
+}
+.text-mobile{
+    display:none;
+}
+
+@media (max-width:768px){
+
+    .text-desktop{
+    display:none;
+}
+.text-mobile{
+    display:inline;
+}
+
+}
+/* --- Estilos específicos para el enlace Volver --- */
+.volver {
+    color: aliceblue !important;
+    text-decoration: none !important; /* 👈 Elimina cualquier subrayado nativo */    
+    font-weight: 500;    
+    transition: opacity 0.2s ease;
+    font-size: 16px;
+    font-family: "Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+/* Evita que se subraye con línea blanca en hover */
+.volver:hover {
+    text-decoration: none !important; 
+    opacity: 0.8; /* Efecto sutil de claridad */
+    /* Si querés que mantenga la línea azul inferior como los otros links, descomentá la siguiente línea: */
+    /* border-bottom: 2px solid #00b4d8; */
+}
+
+/* Control estricto de visibilidad responsiva para los textos */
+.text-desktop {
+    display: inline-block;
+}
+.text-mobile {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .text-desktop {
+        display: none !important;
+    }
+    .text-mobile {
+        display: inline-block !important;
+    }
+}
+
+/* --- Estilos específicos para el Título del Header de la izquierda --- */
+.header .navbar-brand {
+    color: aliceblue !important;
+    font-size: 1.1rem;
+    font-weight: 500;
+    cursor: default; /* Remueve la manito del cursor ya que actúa como texto plano */
+}
+
+/* Anulamos la opacidad y la línea azul inferior al hacer hover */
+.header .navbar-brand:hover {
+    opacity: 1 !important;
+    border-bottom: none !important;
+}
+/* Fin Header */
 
 
 /*Main*/
@@ -252,3 +366,6 @@ html, body {
   line-height: 1.5;       /* Mejora el interlineado si el texto ocupa dos renglones */
   font-size: 0.95rem;     /* Tamaño ideal para la lectura */
 }
+
+
+

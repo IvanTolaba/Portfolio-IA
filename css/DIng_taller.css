@@ -36,6 +36,61 @@
     font-family: "Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
 }
 
+/* nuevo codigo footer*/
+/* Escritorio */
+.text-desktop{
+    display:inline;
+}
+.text-mobile{
+    display:none;
+}
+
+@media (max-width:768px){
+
+    .text-desktop{
+    display:none;
+}
+.text-mobile{
+    display:inline;
+}
+
+}
+/* --- Estilos específicos para el enlace Volver --- */
+.volver {
+    color: aliceblue !important;
+    text-decoration: none !important; /* 👈 Elimina cualquier subrayado nativo */    
+    font-weight: 500;    
+    transition: opacity 0.2s ease;
+    font-size: 16px;
+    font-family: "Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+/* Evita que se subraye con línea blanca en hover */
+.volver:hover {
+    text-decoration: none !important; 
+    opacity: 0.8; /* Efecto sutil de claridad */
+    /* Si querés que mantenga la línea azul inferior como los otros links, descomentá la siguiente línea: */
+    /* border-bottom: 2px solid #00b4d8; */
+}
+
+/* Control estricto de visibilidad responsiva para los textos */
+.text-desktop {
+    display: inline-block;
+}
+.text-mobile {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .text-desktop {
+        display: none !important;
+    }
+    .text-mobile {
+        display: inline-block !important;
+    }
+}
+/* Fin Header */
+
 
 /* Main*/
 .main {  
